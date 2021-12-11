@@ -115,10 +115,10 @@ function Mint() {
                                     <button className='ybutton'
                                         onClick={(e) => {
                                             console.log("--------")
-                                            e.preventDefault();
-                                            dispatch(connect());
-                                            getData();
-                                        }}>CONNECT</button>
+                                            // e.preventDefault();
+                                            // dispatch(connect());
+                                            // getData();
+                                        }}>COMING SOON</button>
                                     {blockchain.errorMsg !== "" ? (
                                         <div style={{ textAlign: "center", fontSize: 20, color: "white" }}>
                                             {blockchain.errorMsg}
